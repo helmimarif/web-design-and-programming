@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="ajax.js"></script>
+</head>
+<body>
+    <p>
+        Nama:<select size="1" name="karyawan" id="karyawan" onchange=ambildata(this.value)>
+            <!-- Buat sesuai kode pada database anda -->
+            <option selected>--Pilih karyawan--</option>
+            <option value="12345">Taufiq Rahman</option>
+            <option value="22222">Ade Uku Yoba</option>
+            <option value="33333">Mochammad Yusa</option>
+            </select>
+    </p>
+    <p>
+        Alamat : <textarea rows="4" id="alamat" name="alamat" cols="42"></textarea>
+    </p>
+    Pada contoh berikut anda akan memilih nama dan mengambil data alamat di database<br>
+    berdasarkan nama tersebut dan menampilkannya di halaman ini tanpa harus me-reload<br>
+    keseluruhan halaman
+</body>
+</html>
